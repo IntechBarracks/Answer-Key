@@ -1,0 +1,28 @@
+Scenario Analysis: The Phantom Queries - Unraveling the DNS Enigma at MedTech Corp
+
+
+Initial Response: The immediate steps should include isolating Sarah's workstation from the rest of the network to prevent potential spread of a possible infection or halt further data exfiltration. This can be achieved by disabling the network port the workstation is connected to or by putting the workstation in a separate VLAN with no access to other network resources.
+
+
+Investigation: There are several key elements to focus on during the investigation:
+
+Analyzing DNS Queries: The DNS queries should be analyzed in detail to understand their nature. Unusual patterns, such as requests to unfamiliar domains or an unusually high volume of requests, may indicate DNS tunneling, a technique often used by malware for command and control communications.
+
+Workstation Logs: Reviewing the system and application logs on Sarah's workstation might reveal unusual application activity, changes in system configurations, or other signs of compromise. It is important to look for any new or recently modified files, unusual processes running, and any recent downloads.
+
+User Interview: Interviewing Sarah might provide valuable information. She might have noticed her computer behaving strangely, or she may recall opening a suspicious email attachment or visiting a new website.
+
+
+Findings & Conclusions: The unusual DNS traffic is a result of malware on Sarah's workstation, which is using DNS tunneling to communicate with a command and control server. The analysis of the DNS queries, combined with the discovery of a new, unfamiliar process running on Sarah's workstation, suggests a malware infection. Further, Sarah recalls opening an email attachment that she thought was strange, which is likely the source of the infection.
+
+
+Remediation & Prevention: The following steps should be taken to remediate the issues and prevent similar incidents in the future:
+
+
+Malware Removal: Use a reputable antivirus tool to clean Sarah's workstation. It may be necessary to wipe the workstation and reinstall the operating system to ensure complete removal of the malware.
+
+Network Security: Update the firewall rules to block the malicious domains involved in the DNS tunneling. Consider implementing DNS security measures, such as DNS over HTTPS (DoH) or DNS over TLS (DoT), to prevent DNS tunneling attacks.
+
+User Training: Implement a company-wide cybersecurity awareness training program, emphasizing the dangers of phishing emails and the importance of not opening unexpected email attachments. This can help prevent similar incidents in the future.
+
+System Hardening: Regularly update and patch all systems. Consider additional security measures such as application whitelisting and enhanced email filtering to block phishing attempts and malicious attachments.
