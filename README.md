@@ -2,7 +2,7 @@
 
 Use this key to compare your own answers & DO NOT LOOK HERE FIRST 
 
-IF YO DO
+IF YOU DO
 
 YOURE A LOSER
 
