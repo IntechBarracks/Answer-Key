@@ -1,0 +1,58 @@
+Scenario Analysis: Skyline Mysteries - The AWS Cloud Conundrum
+
+Initial Response: The immediate steps should involve minimizing the ongoing costs and potential harm:
+
+Terminate the unfamiliar EC2 instances after documenting their details for further investigation.
+Temporarily restrict data transfer from the S3 buckets showing increased activity.
+Alert users about the phishing attempt and advise them not to click on any suspicious links.
+Enable multi-factor authentication (MFA) on all IAM accounts, if not already done.
+
+
+
+
+Investigation: The focus during the investigation should be on:
+
+S3 Buckets: Look for public access permissions or unfamiliar access patterns in the S3 buckets.
+EC2 Instances: Analyze the terminated EC2 instances for unfamiliar software or configurations.
+Phishing Emails: Investigate the email headers to trace their origin.
+
+
+
+AWS Log Analysis: AWS CloudTrail, AWS Config, and AWS GuardDuty can provide valuable insights:
+
+CloudTrail: Review logs for unusual API activity, particularly involving the affected S3 buckets and EC2 instances.
+Config: Identify any recent changes in the configuration of S3, EC2, and IAM services.
+GuardDuty: Check for any threat detections related to the incident.
+
+
+
+Security Analysis: To analyze the security posture of Skyline's AWS infrastructure, consider factors like:
+
+IAM policies and practices, including MFA and least privilege access.
+The security of S3 buckets, particularly public access and bucket policies.
+Security groups and network access control lists (NACLs) for EC2 instances.
+
+
+
+
+
+Findings & Conclusions: Based on the investigation, the potential conclusions could include:
+
+Unauthorized access to the AWS environment, possibly due to compromised IAM credentials, leading to the launch of EC2 instances.
+Misconfiguration of S3 buckets, allowing for increased data transfer costs.
+Phishing emails may be an independent event or connected with the AWS incident if the same threat actor is involved.
+
+
+
+
+
+
+
+Remediation & Prevention: To remediate the issues found and prevent future incidents, consider:
+
+Enforcing strong IAM policies, including MFA and least privilege access.
+Regularly reviewing and securing S3 bucket permissions.
+Implementing a security monitoring and alerting solution.
+Regular security assessments of the AWS environment.
+Training staff on identifying and reporting phishing attempts.
+Remember, this is an example solution based on the scenario. In a real-world situation, the specific steps and conclusions might vary based on the actual details of the system and the tools and resources available.
