@@ -1,0 +1,168 @@
+
+
+### Scenario-Based Networking Quiz
+
+1. Bob, a network engineer, has been tasked with setting up a network that allows multiple devices to communicate directly with each other. What type of network is he likely setting up?
+
+    A) WAN
+    B) LAN
+    C) VPN
+    D) P2P
+
+2. Alice, a network administrator, is troubleshooting an issue where a client is unable to connect to a server. She suspects the issue lies within the OSI model's Transport Layer. Which protocol is Alice most likely troubleshooting?
+
+    A) HTTP
+    B) IP
+    C) TCP
+    D) ARP
+
+3. Frank's company recently opened a new office. He has been asked to connect the company's LAN to the ISP to provide internet access to the office. Which device should Frank use to accomplish this?
+
+    A) Switch
+    B) Modem
+    C) Firewall
+    D) Bridge
+
+4. Carol is implementing a security protocol on her company's wireless network to protect data. Which protocol is considered the most secure as of my knowledge cutoff in September 2021?
+
+    A) WEP
+    B) WPA
+    C) WPA2
+    D) WPA3
+
+5. David is troubleshooting a network issue where packets from the source to the destination are not following the same path each time. Which routing method is the network likely using?
+
+    A) Static Routing
+    B) Dynamic Routing
+    C) Default Routing
+    D) Direct Routing
+
+### Answers
+
+1. D) P2P - In a peer-to-peer (P2P) network, devices (or "peers") communicate directly with each other.
+
+2. C) TCP - The Transport Layer of the OSI model is responsible for the delivery of packets and includes protocols like TCP (Transmission Control Protocol).
+
+3. B) Modem - Modems are used to connect a network to the Internet Service Provider (ISP).
+
+4. D) WPA3 - WPA3 is currently the most secure protocol for protecting wireless networks. It replaces WPA2, the previous standard.
+
+5. B) Dynamic Routing - In dynamic routing, routes are learned by the ongoing process, and hence the path of the packet may vary over time.
+
+
+
+
+
+
+1. Alice, a network engineer, is configuring a router to forward the data packets to the appropriate paths in the network. Which layer of the OSI model is she working on?
+
+    A) Network Layer
+    B) Transport Layer
+    C) Data Link Layer
+    D) Session Layer
+
+2. Bob is working for an ISP. He has been asked to manage a network where each internal IP address corresponds to a unique public IP address. Which method is he using?
+
+    A) NAT (Network Address Translation)
+    B) PAT (Port Address Translation)
+    C) Static Routing
+    D) Dynamic Routing
+
+3. Frank is a network administrator and has noticed a significant number of collision errors on his network. He identifies that these collisions are mostly happening on his company's hub. To reduce these collisions, what device should Frank replace the hub with?
+
+    A) Modem
+    B) Router
+    C) Switch
+    D) Firewall
+
+4. Carol's company handles sensitive customer data. She has been asked to implement an encryption-based network security protocol that can work with a pair of public and private keys. Which protocol should Carol use?
+
+    A) HTTPS
+    B) SSH
+    C) Telnet
+    D) SNMP
+
+5. David is troubleshooting an issue in a VoIP call. The voice is arriving choppy and with intervals at the receiver’s end. Which of the following could be a possible reason?
+
+    A) High Latency
+    B) High Bandwidth
+    C) Low Bandwidth
+    D) Low Latency
+
+### Answers
+
+1. A) Network Layer - Routers operate at the Network layer (Layer 3) of the OSI model, where they forward data packets based on IP addresses.
+2. A) NAT - NAT (Network Address Translation) is the process where one IP address is translated into another. It allows for each internal IP address to map to a unique public IP address.
+3. C) Switch - Unlike hubs, switches are intelligent devices that can reduce collisions in a network by sending data only to the device it is intended for, rather than broadcasting to all connected devices.
+4. B) SSH - Secure Shell (SSH) is a protocol that provides a secure channel over an unsecured network in a client-server architecture. It uses public-key cryptography for authentication.
+5. A) High Latency - High latency causes a delay in data transmission which may result in choppy voice in a VoIP call.
+
+
+
+
+
+
+
+
+
+### Network Security Concepts Quiz
+
+1. What is the main purpose of a firewall in a network?
+
+    A) To increase the network's speed
+    B) To connect the network to the internet
+    C) To protect the network from unauthorized access
+    D) To route packets across the network
+
+2. Which of the following is a commonly used port for HTTP traffic?
+
+    A) Port 25
+    B) Port 80
+    C) Port 22
+    D) Port 443
+
+3. In terms of network security, what does 'IDS' stand for?
+
+    A) Internal Defense System
+    B) Intrusion Detection System
+    C) Integrated Defense System
+    D) Internet Defense System
+
+### Scenario-Based Network Security Quiz
+
+4. Alice, a security engineer, is configuring a firewall to deny all incoming traffic except web traffic (both HTTP and HTTPS). Which ports should she primarily open on the firewall?
+
+    A) Port 25 and 465
+    B) Port 22 and 23
+    C) Port 80 and 443
+    D) Port 20 and 21
+
+5. Bob, a network administrator, noticed some suspicious traffic patterns that suggest an outsider is trying to access the internal network. Bob decides to deploy a system to monitor network traffic and alert him when there are potential threats. Which type of system is Bob likely to deploy?
+
+    A) IDS
+    B) NAT
+    C) VPN
+    D) DHCP
+
+6. Carol's company recently suffered a data breach because of lax security policies. In response, the company decided to enforce stricter rules about the kind of activities and traffic allowed over the network. What is this set of rules called?
+
+    A) Firewall Rules
+    B) Network Policy
+    C) Security Policy
+    D) IDS Rules
+
+### Answers
+
+1. C) To protect the network from unauthorized access - A firewall's primary function is to control incoming and outgoing network traffic and protect the network from unauthorized access.
+2. B) Port 80 - Port 80 is commonly used for unencrypted HTTP traffic.
+3. B) Intrusion Detection System - An Intrusion Detection System (IDS) is a device or software application that monitors a network for malicious activities or policy violations.
+
+4. C) Port 80 and 443 - Port 80 is commonly used for unencrypted HTTP traffic, while port 443 is used for HTTPS, which is encrypted.
+5. A) IDS - An Intrusion Detection System (IDS) would be appropriate in this situation to monitor network traffic and raise an alert when a potential threat is detected.
+6. C) Security Policy - A Security Policy is a document that outlines the rules, practices, and procedures that a company follows to ensure the integrity, confidentiality, and availability of its data.
+
+
+
+
+
+
