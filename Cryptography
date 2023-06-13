@@ -1,0 +1,102 @@
+
+
+### Cryptography Concepts Quiz
+
+1. What does 'AES' stand for in the context of cryptography?
+
+    A) Advanced Encryption Standard
+    B) Asymmetric Encryption System
+    C) Advanced Encryption System
+    D) Asymmetric Encryption Standard
+
+2. Which of the following encryption algorithms is considered the most secure as of my knowledge cutoff in September 2021?
+
+    A) DES
+    B) 3DES
+    C) RSA
+    D) AES
+
+3. Which type of cryptographic algorithm uses two mathematically related, but not identical, keys - one to encrypt the plaintext and one to decrypt the ciphertext?
+
+    A) Symmetric-key algorithm
+    B) Asymmetric-key algorithm
+    C) Hash function
+    D) Stream cipher
+
+### Scenario-Based Cryptography Quiz
+
+4. Alice, a cybersecurity engineer, is working on a secure communication protocol where the encryption and decryption keys are the same. Which type of encryption is she likely using?
+
+    A) Symmetric encryption
+    B) Asymmetric encryption
+    C) Public key encryption
+    D) Hash encryption
+
+5. Bob has been asked to implement a cryptographic solution that ensures the integrity of data. Which of the following should he primarily consider?
+
+    A) Digital Signature
+    B) Symmetric Encryption
+    C) Public Key Infrastructure
+    D) Secret Key Encryption
+
+6. Carol is designing a secure system for storing user passwords. She decides to use a method that transforms the passwords into a fixed size text, which can't be feasibly converted back. Which cryptographic method is she likely using?
+
+    A) Symmetric encryption
+    B) Asymmetric encryption
+    C) Hashing
+    D) Digital signature
+
+### Answers
+
+1. A) Advanced Encryption Standard - AES is a symmetric encryption algorithm established by the U.S. National Institute of Standards and Technology (NIST).
+2. D) AES - As of the knowledge cutoff in September 2021, AES is generally considered the most secure for data encryption.
+3. B) Asymmetric-key algorithm - Asymmetric cryptography, or public-key cryptography, uses a pair of keys: one for encryption (public key) and one for decryption (private key).
+
+4. A) Symmetric encryption - Symmetric encryption uses the same key for both the encryption and decryption processes.
+5. A) Digital Signature - Digital signatures primarily provide data integrity, assuring the recipient that the message has not been altered in transit.
+6. C) Hashing - Hash functions are used for storing passwords securely. They transform the password into a fixed-size text (the hash), and this process is not reversible.
+
+
+
+
+7. David, a security analyst, has been asked to implement an encryption method that supports key lengths of 128, 192, and 256 bits for a new software. Which encryption method should he choose?
+
+    A) DES
+    B) RSA
+    C) AES
+    D) MD5
+
+8. Emma has been tasked to securely exchange symmetric keys over the internet for her organization. Which cryptographic method would be most suitable for this purpose?
+
+    A) Hashing
+    B) Digital signatures
+    C) Diffie-Hellman key exchange
+    D) Symmetric encryption
+
+9. Frank is tasked with ensuring the authenticity and integrity of software updates in his organization. He decides to use a cryptographic technique that uses a public-private key pair. What is this technique called?
+
+    A) Symmetric Encryption
+    B) Asymmetric Encryption
+    C) Digital Signatures
+    D) Diffie-Hellman Key Exchange
+
+10. Grace, a security engineer, discovered that her company's encrypted communications could be vulnerable to an attack where an adversary might try every possible key to decrypt a ciphertext. What is this type of attack called?
+
+    A) Man-in-the-middle attack
+    B) Replay attack
+    C) Brute-force attack
+    D) Phishing attack
+
+### Answers
+
+7. C) AES - The Advanced Encryption Standard (AES) supports key sizes of 128, 192, and 256 bits.
+
+8. C) Diffie-Hellman key exchange - The Diffie-Hellman protocol is specifically designed for secure key exchange over a public channel.
+
+9. C) Digital Signatures - Digital signatures use asymmetric cryptography and provide assurance of the authenticity and integrity of data.
+
+10. C) Brute-force attack - In a brute-force attack, an attacker tries all possible combinations of keys until the correct one is found.
+
+
+
+
