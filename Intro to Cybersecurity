@@ -1,0 +1,106 @@
+
+### Cybersecurity Quiz 
+
+1. What does the acronym 'CIA' stand for in the context of cybersecurity?
+
+    A) Central Intelligence Agency
+    B) Confidentiality, Integrity, Availability
+    C) Confidentiality, Intelligence, Authentication
+    D) Cyberspace Intelligence Agency
+
+2. Which of the following best defines 'Threat' in the context of cybersecurity?
+
+    A) A possibility that a system will be attacked.
+    B) A system's weakness that can be exploited.
+    C) The stealing of information from a system.
+    D) An action that safeguards a system.
+
+3. What is 'Vulnerability' in the context of cybersecurity?
+
+    A) An attribute that must be protected in a secure system.
+    B) The availability of a system to its users.
+    C) A weakness in a system that can be exploited.
+    D) The unreadiness of a system to fight back cyberattacks.
+
+4. Why is cybersecurity important?
+
+    A) It is not that important.
+    B) It ensures the smooth running of the internet.
+    C) It protects our digital infrastructure and data from unauthorized access and damage.
+    D) It gives jobs to cybersecurity professionals.
+
+5. What is 'Cybersecurity'?
+
+    A) The practice of protecting systems, networks, and programs from digital attacks.
+    B) The measure of a system's vulnerability to attacks.
+    C) The process of training individuals to become hackers.
+    D) The act of making illegal digital transactions.
+
+6. The process of verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system, is called:
+
+    A) Authorization
+    B) Non-repudiation
+    C) Authentication
+    D) Encryption
+
+### Answers
+
+1. B) Confidentiality, Integrity, Availability
+2. A) A possibility that a system will be attacked.
+3. C) A weakness in a system that can be exploited.
+4. C) It protects our digital infrastructure and data from unauthorized access and damage.
+5. A) The practice of protecting systems, networks, and programs from digital attacks.
+6. C) Authentication
+
+
+
+
+
+### Scenario-Based Cybersecurity Quiz
+
+1. Alice works for a company that stores sensitive customer data. She knows that it's vital to protect this data. Which principle from the 'CIA' triad directly relates to preventing unauthorized access to this data?
+
+    A) Confidentiality
+    B) Integrity
+    C) Availability
+    D) Authentication
+
+2. Bob received an email from his bank asking for his account number and password to update their records. This email is a potential:
+
+    A) Vulnerability
+    B) Authentication
+    C) Threat
+    D) Firewall
+
+3. Carol, a network administrator, discovered that the company's server software has an unpatched bug that could allow an intruder to access the system. This bug represents a:
+
+    A) Threat
+    B) Vulnerability
+    C) Confidentiality breach
+    D) Firewall
+
+4. XYZ Corp, a financial institution, heavily relies on its IT systems for day-to-day operations. Ensuring these systems are up and running at all times aligns with which aspect of the 'CIA' triad?
+
+    A) Confidentiality
+    B) Integrity
+    C) Availability
+    D) Authentication
+
+5. Frank is a new employee and needs access to certain files on the company's server. He provides his employee ID and password. The server checks this information before granting him access. This process is known as:
+
+    A) Authorization
+    B) Non-repudiation
+    C) Authentication
+    D) Encryption
+
+### Answers
+
+1. A) Confidentiality - The principle of Confidentiality refers to keeping data and information within the organization and preventing unauthorized access.
+
+2. C) Threat - Phishing emails are a common type of cybersecurity threat.
+
+3. B) Vulnerability - The bug in the server software is a vulnerability, as it could potentially be exploited by malicious actors.
+
+4. C) Availability - This aspect of the CIA triad is about ensuring that authorized users have reliable access to data and resources.
+
+5. C) Authentication - This process verifies the identity of a user, process, or device before granting access to resources.
