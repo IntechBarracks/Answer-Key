@@ -1,0 +1,99 @@
+
+
+### Windows OS Security Concepts Quiz
+
+1. What does UAC stand for in the context of Windows security?
+
+    A) User Access Control
+    B) User Account Control
+    C) Unified Access Control
+    D) Unified Account Control
+
+2. BitLocker is a full disk encryption feature included with which versions of Windows?
+
+    A) Windows 7 Professional and Ultimate
+    B) Windows 8/8.1 Professional and Enterprise
+    C) Both A and B
+    D) Neither A nor B
+
+3. What is the built-in Windows firewall called?
+
+    A) Windows Defender Firewall
+    B) Windows Firewall Control
+    C) Windows Firewall Protection
+    D) Windows Security Wall
+
+### Scenario-Based Windows OS Security Quiz
+
+4. Alice, a security administrator, needs to grant a user the ability to perform certain administrative tasks, but wants to minimize the chance of that user inadvertently causing a security breach. What feature in Windows can Alice use?
+
+    A) UAC
+    B) BitLocker
+    C) Windows Defender
+    D) Windows Firewall
+
+5. Bob has been asked to ensure that only authorized devices can connect to his company's network. He decides to use a built-in Windows feature that checks the health status of devices before they can connect. What is this feature called?
+
+    A) Network Access Control (NAC)
+    B) Health Validation
+    C) Network Health Check
+    D) Network Access Protection (NAP)
+
+6. Carol is troubleshooting a malware issue on a Windows PC. She decides to use a built-in tool to scan for and remove the malware. Which tool is Carol likely using?
+
+    A) Windows Defender
+    B) Windows Firewall
+    C) BitLocker
+    D) Windows Security Essentials
+
+7. David notices that his files on his Windows computer have been encrypted and he is unable to access them. He suspects it's due to ransomware. Which built-in Windows feature could have helped prevent this attack?
+
+    A) Windows Firewall
+    B) Windows Defender
+    C) User Account Control
+    D) Network Access Protection
+
+8. Emma, a system administrator, needs to restrict the execution of certain suspicious applications on the organization's Windows machines. Which security feature should she consider enabling?
+
+    A) Application Control Policies
+    B) User Account Control
+    C) Windows Firewall
+    D) Network Access Protection
+
+9. Frank is a security engineer who has been asked to ensure that the data on a lost Windows laptop cannot be accessed. Which built-in Windows feature can he use to accomplish this?
+
+    A) BitLocker
+    B) Windows Defender
+    C) User Account Control
+    D) Windows Firewall
+
+10. Grace is setting up a new Windows server. She wants to ensure that the server only provides the minimum services required to perform its role, reducing the potential attack surface. What principle is she following?
+
+    A) Principle of Least Privilege
+    B) Principle of Least Functionality
+    C) User Access Control Principle
+    D) Defense in Depth Principle
+
+### Answers
+
+1. B) User Account Control - UAC is a security feature of Windows which helps prevent unauthorized changes to the operating system.
+
+2. C) Both A and B - BitLocker is available in the Professional and Ultimate editions of Windows 7, as well as the Professional and Enterprise editions of Windows 8/8.1.
+
+3. A) Windows Defender Firewall - This is the built-in firewall for Windows operating systems.
+
+4. A) UAC - User Account Control can be used to prompt for consent or credentials before allowing certain administrative
+
+ operations.
+
+5. D) Network Access Protection (NAP) - NAP is a Microsoft technology for controlling network access of a computer based on its health.
+
+6. A) Windows Defender - Windows Defender is a built-in tool that provides real-time protection against a wide range of threats, including malware.
+
+7. B) Windows Defender - Windows Defender provides comprehensive malware protection, including against ransomware.
+
+8. A) Application Control Policies - Application Control Policies (AppLocker) can be used to restrict the execution of potentially harmful or unwanted applications.
+
+9. A) BitLocker - BitLocker is a full disk encryption feature in Windows that can protect data on lost or stolen devices.
+
+10. B) Principle of Least Functionality - The principle of least functionality involves disabling unnecessary services and functionality to reduce the potential attack surface.
